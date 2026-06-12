@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: ascon-verilog
+message: 'If you use the Ascon‑Hash256 core in this repository, please cite the original software as below.'
+type: software
+authors:
+  - given-names: Robert
+    family-names: Primas
+    orcid: 'https://orcid.org/0000-0002-9569-8477'
+repository-code: 'https://github.com/rprimas/ascon-verilog'
+license: CC0-1.0
