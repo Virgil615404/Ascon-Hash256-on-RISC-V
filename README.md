@@ -40,4 +40,4 @@ This repository contains all RTL, simulation scripts, and analysis tools for the
 ## License
 
 MIT (see LICENSE file).  
-The Ascon‑Hash256 Verilog core is based on the work of Robert Primas (https://github.com/rprimas/ascon-verilog) released under CC0‑1.0. Modifications are indicated in the source files.
+The Ascon‑Hash256 Verilog core is based on the work of Robert Primas (https://github.com/rprimas/ascon-verilog) released under CC0‑1.0.
