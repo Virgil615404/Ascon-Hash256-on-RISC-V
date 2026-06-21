@@ -1,0 +1,1 @@
+module soc_native_bus(); endmodule

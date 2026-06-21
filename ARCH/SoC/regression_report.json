@@ -1,0 +1,257 @@
+{
+  "timestamp": "2026-06-21T14:37:21.250921",
+  "total_time_seconds": 126.38371586799622,
+  "summary": {
+    "total_tests": 22,
+    "passed": 22,
+    "failed": 0,
+    "timeout": 0,
+    "errors": 0,
+    "skipped": 0,
+    "pass_rate_percent": 100.0
+  },
+  "performance": {
+    "average_duration_ms": 5741.752353581515,
+    "average_cycles": 60.54545454545455,
+    "total_cycles": 1332
+  },
+  "results_by_category": {
+    "smoke": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "isa_alu": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "isa_control": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "isa_data": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "isa_memory": {
+      "total": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "cache": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "negative": {
+      "total": 9,
+      "passed": 9,
+      "failed": 0
+    }
+  },
+  "failing_tests": [],
+  "error_tests": [],
+  "all_results": [
+    {
+      "name": "smoke_nop",
+      "status": "PASSED",
+      "cycles": 28,
+      "duration_ms": 23486.3178730011,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:35:38.355529"
+    },
+    {
+      "name": "alu_logic",
+      "status": "PASSED",
+      "cycles": 46,
+      "duration_ms": 4832.118272781372,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:35:43.189661"
+    },
+    {
+      "name": "alu_imm_ext",
+      "status": "PASSED",
+      "cycles": 37,
+      "duration_ms": 4919.004201889038,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:35:48.109670"
+    },
+    {
+      "name": "jal_flow",
+      "status": "PASSED",
+      "cycles": 32,
+      "duration_ms": 4818.350315093994,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:35:52.931019"
+    },
+    {
+      "name": "jalr_selftest",
+      "status": "PASSED",
+      "cycles": 35,
+      "duration_ms": 4834.830760955811,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:35:57.767888"
+    },
+    {
+      "name": "branch_beq_taken",
+      "status": "PASSED",
+      "cycles": 35,
+      "duration_ms": 4797.72162437439,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:02.566607"
+    },
+    {
+      "name": "branch_bne_taken",
+      "status": "PASSED",
+      "cycles": 35,
+      "duration_ms": 4681.522369384766,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:07.250126"
+    },
+    {
+      "name": "auipc_basic",
+      "status": "PASSED",
+      "cycles": 28,
+      "duration_ms": 4697.611331939697,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:11.948745"
+    },
+    {
+      "name": "byte_half_store_load",
+      "status": "PASSED",
+      "cycles": 99,
+      "duration_ms": 4794.37780380249,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:16.747135"
+    },
+    {
+      "name": "word_load_sign_ext",
+      "status": "PASSED",
+      "cycles": 67,
+      "duration_ms": 5209.582328796387,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:21.976837"
+    },
+    {
+      "name": "mem_rw_basic",
+      "status": "PASSED",
+      "cycles": 49,
+      "duration_ms": 5241.090774536133,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:27.219880"
+    },
+    {
+      "name": "dcache_write_hit",
+      "status": "PASSED",
+      "cycles": 55,
+      "duration_ms": 5572.790622711182,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:32.795680"
+    },
+    {
+      "name": "dcache_conflict_writeback",
+      "status": "PASSED",
+      "cycles": 88,
+      "duration_ms": 4030.9033393859863,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:36.827572"
+    },
+    {
+      "name": "neg_unaligned_lw",
+      "status": "PASSED",
+      "cycles": 45,
+      "duration_ms": 5025.287866592407,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:41.854886"
+    },
+    {
+      "name": "neg_unaligned_sw",
+      "status": "PASSED",
+      "cycles": 42,
+      "duration_ms": 4906.553506851196,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:46.764427"
+    },
+    {
+      "name": "neg_boundary_values",
+      "status": "PASSED",
+      "cycles": 34,
+      "duration_ms": 5057.067632675171,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:51.822506"
+    },
+    {
+      "name": "neg_rapid_deps",
+      "status": "PASSED",
+      "cycles": 43,
+      "duration_ms": 4783.71000289917,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:36:56.609198"
+    },
+    {
+      "name": "neg_memory_stress",
+      "status": "PASSED",
+      "cycles": 342,
+      "duration_ms": 4917.009592056274,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:37:01.528208"
+    },
+    {
+      "name": "neg_branch_stress",
+      "status": "PASSED",
+      "cycles": 76,
+      "duration_ms": 4814.400196075439,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:37:06.346617"
+    },
+    {
+      "name": "neg_shift_boundaries",
+      "status": "PASSED",
+      "cycles": 37,
+      "duration_ms": 4978.521108627319,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:37:11.326166"
+    },
+    {
+      "name": "neg_register_edges",
+      "status": "PASSED",
+      "cycles": 31,
+      "duration_ms": 5022.892236709595,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:37:16.350066"
+    },
+    {
+      "name": "neg_byte_halfword",
+      "status": "PASSED",
+      "cycles": 48,
+      "duration_ms": 4896.888017654419,
+      "error_msg": null,
+      "coverage": 0.0,
+      "timestamp": "2026-06-21T14:37:21.248919"
+    }
+  ]
+}
